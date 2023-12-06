@@ -7,7 +7,7 @@ The notebooks are listed 1-9, the order in which they should be run. Notebooks 1
 # The Data:
 All the data used in this project, other than the housing data, is pulled from various CSV files. They are as follows:
 <br />
-Green Spaces - 4326.csv -> CSV of types and locations of green spaces across Toronto (Source: https://ckan0.cf.opendata.inter.prod-toronto.ca/el/dataset/green-spaces)<br />
+**-Green Spaces - 4326.csv -> CSV of types and locations of green spaces across Toronto (Source: https://ckan0.cf.opendata.inter.prod-toronto.ca/el/dataset/green-spaces)**<br />
 INDINF_CPI (1).csv -> Canadian Inflation Data (Source: https://www.bankofcanada.ca/rates/indicators/capacity-and-inflation-pressures/inflation/)<br />
 Major_Crime_Indicators_Open_Data.csv -> Toronto Major Crime Data (Source: https://data.torontopolice.on.ca/pages/major-crime-indicators)<br />
 School locations-all types data - 4326.csv -> Toronto School locations (Source: https://ckan0.cf.opendata.inter.prod-toronto.ca/tr/dataset/school-locations-all-types)<br />
