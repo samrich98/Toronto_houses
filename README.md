@@ -1,4 +1,4 @@
-# Toronto_houses
+# How Temporal and Geographical Factors can Improve a Sale Price Prediction Model in Toronto
 This repository shows an analysis of the Toronto housing market from 2014 to 2023 including the influence of financial, crime, and local factors. A model is created using this analysis to compare how those factors influence the final sale price.
 
 # The Notebooks:
