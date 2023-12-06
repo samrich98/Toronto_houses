@@ -30,7 +30,7 @@ The following files are included in the Repository so the full code does not hav
 *- Houses_Infrastructure_2km.csv -> Infrastructure within 10 km of a house. Create by changing the Radius of influence to 2000.*<br /><br />
 *- Houses_Infrastructure_3km.csv -> Infrastructure within 10 km of a house. Create by changing the Radius of influence to 3000.*<br /><br />
 *- Houses_Infrastructure_4km.csv -> Infrastructure within 10 km of a house. Create by changing the Radius of influence to 4000.*<br /><br />
-*- Houses_Infrastructure_5km.csv -> Infrastructure within 10 km of a house. Create by changing the Radius of influence to 5000.*<.br /><br />
+*- Houses_Infrastructure_5km.csv -> Infrastructure within 10 km of a house. Create by changing the Radius of influence to 5000.*<br /><br />
 *- Houses_Infrastructure_7km.csv -> Infrastructure within 10 km of a house. Create by changing the Radius of influence to 7000.*<br /><br />
 *- houses_data.csv -> cleaned housing data with only 50 features.*<br /><br />
 *- houses_data_final.csv -> checkpoint created midway through the main notebook. Includes engineered house features.*<br /><br />
