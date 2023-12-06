@@ -3,7 +3,7 @@ This repository shows an analysis of the Toronto housing market from 2014 to 202
 
 # The Notebooks:
 ## Data Processing
-The data processing notebooks are listed 1-5, the order in which they should be run. Notebooks 1 and 2 involved scraping and cleaning the housing data. Notebooks 3-5 contain the code for combining the additional features such as nearby infrastructure (Notebook 3), nearby amenities and features (Notebook 4), and finally the main notebook (Notebook 5). The main notebook combines the previous notebooks, adding financial and crime features. It also exports the test and train CSV files for the model. 
+The data processing notebooks are listed from 1-5, the order in which they should be run. Notebooks 1 and 2 involved scraping and cleaning the housing data. Notebooks 3-5 contain the code for combining the additional features such as nearby infrastructure (Notebook 3), nearby amenities and features (Notebook 4), and finally the main notebook (Notebook 5). The main notebook combines the previous notebooks, adding financial and crime features. It also exports the test and train CSV files for the model. 
 ## Model
 The model file contains all the code required to train and run the model. It also includes a test and train CSV file so that the model can still be run without generating this data.
 ## Visualizations
@@ -47,7 +47,7 @@ The following files are included in the Repository so the full code does not hav
 *- train.csv -> chronologically the first 80% of data. Used to train the model.*<br /><br />
 
 # Shape Files:
-The following shapefiles were used to in this repository:<br />
+The following shapefiles were used in this repository:<br />
 *- subway_stations.dbf*<br /><br />
 *- subway_stations.prj*<br /><br />
 *- subway_stations.sbn*<br /><br />
