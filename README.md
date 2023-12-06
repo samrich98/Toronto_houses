@@ -1,16 +1,16 @@
-## How Temporal and Geographical Factors Can Improve a Sale Price Prediction Model in Toronto
+# How Temporal and Geographical Factors Can Improve a Sale Price Prediction Model in Toronto
 This repository shows an analysis of the Toronto housing market from 2014 to 2023 including the influence of financial, crime, and local factors. A model is created using this analysis to compare how those factors influence the final sale price.
 
-## The Notebooks:
-# Data Processing
+# The Notebooks:
+## Data Processing
 The data processing notebooks are listed 1-5, the order in which they should be run. Notebooks 1 and 2 involved scraping and cleaning the housing data. Notebooks 3-5 contain the code for combining the additional features such as nearby infrastructure (Notebook 3), nearby amenities and features (Notebook 4), and finally the main notebook (Notebook 5). The main notebook combines the previous notebooks, adding financial and crime features. It also exports the test and train CSV files for the model. 
-# Model
+## Model
 The model file contains all the code required to train and run the model. It also includes a test and train CSV file so that the model can still be run without generating this data.
-# Visualizations
+## Visualizations
 There are three notebooks in this folder to generate different types of visualizations about the houses, nearby features, and nearby infrastructure.
 
-## CSV Files:
-# Data Files
+# CSV Files:
+## Data Files
 All the data used in this project, other than the housing data, is pulled from various CSV files. They are as follows:
 <br /><br />
 *- Green Spaces - 4326.csv -> CSV of types and locations of green spaces across Toronto (Source: https://ckan0.cf.opendata.inter.prod-toronto.ca/el/dataset/green-spaces)*<br /><br />
@@ -29,7 +29,7 @@ All the data used in this project, other than the housing data, is pulled from v
 *- interest rates.csv -> Toronto Morgage Interest Rates (Source: https://wowa.ca/canada-mortgage-rates-history)*<br /><br />
 *- unemployment rate.csv -> Ontario Unemployment Rates (Source: https://ycharts.com/indicators/ontario_unemployment_rate)*<br /><br />
 
-# Check Points:
+## Check Points:
 The following files are included in the Repository so the full code does not have to be run. Creating and processing some of this data can take hours. Note that due to a 25MB file upload limit size on GitHub, some files have been truncated. <br /><br />
 *- Houses_Infrastructure_10km.csv -> Infrastructure within 10 km of a house. Create by changing Radius of influence to 10000.*<br /><br />
 *- Houses_Infrastructure_1km.csv -> Infrastructure within 10 km of a house. Create by changing the Radius of influence to 1000.*<br /><br />
@@ -46,7 +46,7 @@ The following files are included in the Repository so the full code does not hav
 *- test.csv -> chronologically the last 20% of data. Used to test the model.*<br /><br />
 *- train.csv -> chronologically the first 80% of data. Used to train the model.*<br /><br />
 
-## Shape Files:
+# Shape Files:
 The following shapefiles were used to in this repository:<br />
 *- subway_stations.dbf*<br /><br />
 *- subway_stations.prj*<br /><br />
