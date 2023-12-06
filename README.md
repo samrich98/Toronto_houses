@@ -5,7 +5,8 @@ This repository shows an analysis of the Toronto housing market from 2014 to 202
 The notebooks are listed 1-9, the order in which they should be run. Notebooks 1 and 2 involved scraping and cleaning the housing data. Notebooks 3-5 contain the code for combining the additional features such as nearby infrastructure (Notebook 3), nearby amenities and features (Notebook 4), and finally the main notebook (Notebook 5). The main notebook combines the previous notebooks, adding financial and crime features. It also exports the test and train CSV files for the model. Notebook 6 contains all the code required to train and run the model. The final 3 notebooks contain different types of visualizations.
 
 # The Data:
-All the data used in this project, other than the housing data, is pulled from various CSV files. They are as follows:<br />
+All the data used in this project, other than the housing data, is pulled from various CSV files. They are as follows:
+<br />
 Green Spaces - 4326.csv -> CSV of types and locations of green spaces across Toronto (Source: https://ckan0.cf.opendata.inter.prod-toronto.ca/el/dataset/green-spaces)<br />
 INDINF_CPI (1).csv -> Canadian Inflation Data (Source: https://www.bankofcanada.ca/rates/indicators/capacity-and-inflation-pressures/inflation/)<br />
 Major_Crime_Indicators_Open_Data.csv -> Toronto Major Crime Data (Source: https://data.torontopolice.on.ca/pages/major-crime-indicators)<br />
