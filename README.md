@@ -41,7 +41,7 @@ train.csv -> chronologically the first 80% of data. Used to train the model.
 
 # Shapefiles:
 The following shapefiles were used to in this repository:
-subway_stations.dbf
+subway_stations.dbf\n
 subway_stations.prj
 subway_stations.sbn
 subway_stations.sbx
